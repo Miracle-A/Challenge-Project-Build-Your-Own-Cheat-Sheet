@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge Project: Build Your Own Cheat Sheet</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+<body>
+    <h1>CSS: Selectors</h1>
+    <div class="search">Search the table</div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Selector Type</th>
+                <th>Description</th>
+                <th>Example CSS</th>
+                <th>Example HTML</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Type Selector</td>
+                <td>Targets all elements of a specified type.</td>
+                <td>'p { color: red; }'</td>
+                <td>&lt;p&gt;This is a paragraph.&lt;p&gt;</td>
+            </tr>
+            <tr>
+                <td>Class Selector</td>
+                <td>Targets elements based on their class attribute.</td>
+                <td>.highlight { background-color: yellow; }</td>
+                <td>"div class="highlight">Highlighted text /div"</td>
+            </tr>
+            <tr>
+                <td>ID Selector</td>
+                <td>Targets a specific element based on its id attribute.</td>
+                <td>#header { background-color: blue; }</td>
+                <td>"div id="header">Header /div"</td>
+            </tr>
+            <tr>
+                <td>Descendant Selector</td>
+                <td>Targets an element that is a descendant of another specified element.</td>
+                <td>article p { color: green; }</td>
+                <td>"article""p"Text inside article."p""/article"</td>
+            </tr>           
+            <tr>
+                <td>Attribute Selector</td>
+                <td>	Targets elements based on their attributes and attribute values.</td>
+                <td>input[type="text"] { border: 1px solid gray; }</td>
+                <td>"input type="text" / </td>
+            </tr>
+            <tr>
+                <td>Pseudo-class Selector</td>
+                <td>Targets elements based on their state or position.</td>
+                <td>a:hover { text-decoration: none; }</td>
+                <td>"a href="#">Hover over me!"/a"</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
